@@ -1,0 +1,37 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: palegreen;
+}
+
+.title {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}
+
+.statlist {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.item {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  list-style: none;
+  text-decoration: none;
+  width: 60px;
+}
+
+.statLabel {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}
+.percentage {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}

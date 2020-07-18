@@ -1,0 +1,13 @@
+.transactionHistory {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  border-spacing: 5px;
+  border: 1px solid darkslategrey;
+}
+
+.transactionHistory td, th {
+  border: 1px solid darkslategrey;
+  width: 100px;
+  text-align: left;
+}

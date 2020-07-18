@@ -1,0 +1,59 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: palegreen;
+  border-radius: 50%;
+}
+
+.description {
+  background-color: turquoise;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+.name {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}
+
+.tag {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}
+
+.location {
+  font-family: fantasy;
+  font-size: large;
+  text-align: center;
+}
+
+.stats {
+  display: inline-flex;
+  flex-direction: row;
+  font-family: fantasy;
+  font-size: large;
+  list-style: none;
+  text-decoration: none;
+}
+
+.label {
+  font-family: fantasy;
+  font-size: large;
+  background-color: lightcoral;
+}
+
+.quantity {
+  font-family: fantasy;
+  font-size: large;
+  margin-right: 10px;
+  background-color: lightpink;
+}
+
+.stats:last-child {
+  margin-right: 0px;
+}
