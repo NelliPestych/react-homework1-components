@@ -1,18 +1,6 @@
 import React from "react";
-// import ReactDOM from "react-dom";
-// import "./index.css";
-// import App from "./App";
-// import * as serviceWorker from "./serviceWorker";
-// import user from "./user.json";
 import styles from "./Profile.module.css";
 import PropTypes from "prop-types";
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById("root")
-// );
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <div className={styles.profile}>
@@ -54,18 +42,4 @@ Profile.propTypes = {
 
 export default Profile;
 
-// ReactDOM.render(
-//   <Profile
-//     name={user.name}
-//     tag={user.tag}
-//     location={user.location}
-//     avatar={user.avatar}
-//     stats={user.stats}
-//   />,
-//   document.getElementById("root")
-// );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-// serviceWorker.unregister();
